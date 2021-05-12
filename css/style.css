@@ -1,0 +1,260 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+body {
+  margin: 0;
+  font-family: "Roboto", "Helvetica Neue", "Helvetica",  "Arial", sans-serif;
+  background: #eaeaea;
+}
+
+section#nav-test {
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+section#nav-test #nav-container {
+  position: relative;
+  margin: 20em;
+  box-sizing: border-box;
+}
+section#nav-test #nav-container ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #323639;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 10em;
+  margin-left: -25em;
+}
+section#nav-test #nav-container ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 48px;
+  margin-left: 60px;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+section#nav-test #nav-container ul li:first-child {
+  margin-left: 0;
+}
+section#nav-test #nav-container ul li a {
+  color: #f1f1f1;
+}
+section#nav-test #nav-container #line {
+  position: absolute;
+  bottom: 0;
+  height: 2px;
+  background: red;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+section#nav-test h1 {
+  margin-top: 30px;
+  font-weight: 500;
+  color: #212121;
+}
+
+
+
+
+.left {
+
+
+  margin-top: 5px;
+  margin-left: 18em;
+  padding-top: 30px;
+}
+
+
+
+.left input {
+
+
+
+
+  padding: 0px 0%;
+  margin-bottom: 2px;
+  border: 1px solid #000;
+  background-color: #fff;
+  font-family: Arial;
+  font-size: 16px;
+  color:#111;
+
+}
+
+.right {
+
+  margin-left: 300px;
+  margin-top: -153px;
+
+
+}
+
+
+
+.right input {
+
+
+
+
+  padding: 0px 5%;
+  margin-bottom: 2px;
+  border:none;
+  background-color: #f1f1f1;
+  font-family: Arial;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 16px;
+  color:#111;
+
+}
+
+.container {
+  width: 500px;
+  clear: both;
+}
+
+.select1  {
+    width: 12.9em;
+
+}
+
+.container input {
+  width: 100%;
+  clear: both;
+}
+
+.left button {
+
+  display:inline-block;
+  padding: 10px  50px;
+
+  border:0.1em solid lightgray;
+  background-color: dimgrey;
+  border-radius:0.12em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+  font-weight:300;
+  color:black;
+  text-align:center;
+  transition: all 0.2s;
+}
+
+.left button:hover {
+  color:#000000;
+  background-color:#FFFFFF
+
+
+
+}
+@media all and (max-width:30em){
+   .left button{
+    display: block;
+    margin: 0.4em auto;
+    }
+}
+
+
+
+
+/*
+header nav {
+  width: 100%;
+  height: 60px;
+  background-color: #fff;
+}
+header nav ul {
+  float: left;
+}
+
+header nav ul li {
+  float: left;
+  list-style: none;
+}
+
+header nav ul li a {
+  font-family: Arial;
+  font-size: 16px;
+  color:#111;
+  line-height: 63px;
+}
+
+header .nav-login{
+
+  float:right;
+}
+
+header .nav-login form{
+
+  float:left;
+  padding-top: 15px;
+}
+
+
+header .nav-login form input{
+
+  float:left;
+  width: 140px;
+  height: 30px;
+  padding: 0px 10px;
+  margin-right: 10px;
+  border: none;
+  background-color: #ccc;
+  font-family: Arial;
+  font-size: 14px;
+  color:#111;
+  line-height: 30px;
+
+}
+
+header .nav-login form button{
+
+  float:left;
+  width: 60px;
+  height: 30px;
+  margin-right: 10px;
+  border: none;
+  background-color: #f3f3f3;
+  font-family: Arial;
+  font-size: 14px;
+  color:#111;
+  cursor: pointer;
+}
+
+header .nav-login form button:hover{
+
+
+  background-color: #ccc;
+
+
+}
+
+header .nav-login a {
+  float: left;
+  display: block;
+  width: 60px;
+  height: 60px;
+  border:none;
+  background-color: #fff;
+  font-family: Arial;
+  font-size: 14px;
+  line-height: 59px;
+  color:#111;
+  cursor:pointer;
+}
